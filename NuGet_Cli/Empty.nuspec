@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Empty</id>
+        <version>1.0.0</version>
+        <title>Empty</title>
+        <authors>Andreas.Klapperich</authors>
+        <owners>Andreas.Klapperich</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Empty</description>
+        <summary>Empty</summary>
+        <releaseNotes />
+        <copyright>Copyright © Andreas.Klapperich</copyright>
+        <language />
+        <tags></tags>
+    </metadata>
+    <files>
+        <file src="NuGet.Exe" target="Dummy/Nuget" />
+    </files>
+</package>
