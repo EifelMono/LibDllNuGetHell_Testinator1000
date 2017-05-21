@@ -44,10 +44,6 @@
       <Project>{2A20D155-EBCA-497B-94A4-7FD9A4F71059}</Project>
       <Name>Lib_Framework_4_0</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lib_Framework_4_7\Lib_Framework_4_7.csproj">
-      <Project>{76780CF8-E578-4048-B419-5BD78614DB18}</Project>
-      <Name>Lib_Framework_4_7</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Lib_macOS\Lib_macOS.csproj">
       <Project>{4B2C05BF-69F8-4B58-9C25-AB8C563A3A46}</Project>
       <Name>Lib_macOS</Name>
