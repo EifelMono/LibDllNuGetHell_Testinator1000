@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\Lib_Shared\Lib_Shared.projitems" Label="Shared" Condition="Exists('..\Lib_Shared\Lib_Shared.projitems')" />
   <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -40,13 +39,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lib_Framework_4_0\Lib_Framework_4_0.csproj">
-      <Project>{2A20D155-EBCA-497B-94A4-7FD9A4F71059}</Project>
-      <Name>Lib_Framework_4_0</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Lib_macOS\Lib_macOS.csproj">
-      <Project>{4B2C05BF-69F8-4B58-9C25-AB8C563A3A46}</Project>
-      <Name>Lib_macOS</Name>
+    <ProjectReference Include="..\Lib_Standard_1_0\Lib_Standard_1_0.csproj">
+      <Project>{F5664BBD-F321-4CEA-A334-4D803C494B00}</Project>
+      <Name>Lib_Standard_1_0</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
