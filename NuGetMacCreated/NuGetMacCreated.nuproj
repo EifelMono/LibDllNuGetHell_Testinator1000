@@ -39,9 +39,17 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lib_Standard_1_2\Lib_Standard_1_2.csproj">
-      <Project>{95AA0F2A-0EB5-4D6A-B4D3-28252E1D0A6E}</Project>
-      <Name>Lib_Standard_1_2</Name>
+    <ProjectReference Include="..\Lib_Standard_1_4\Lib_Standard_1_4.csproj">
+      <Project>{C2E88C73-0F8C-4B38-BA86-496B58856125}</Project>
+      <Name>Lib_Standard_1_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_5\Lib_Standard_1_5.csproj">
+      <Project>{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE}</Project>
+      <Name>Lib_Standard_1_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_6\Lib_Standard_1_6.csproj">
+      <Project>{F7D2D816-1442-49CD-92ED-A91107076201}</Project>
+      <Name>Lib_Standard_1_6</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
