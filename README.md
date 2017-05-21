@@ -15,19 +15,18 @@ Project file's for testing
   * Standard
   * OS
 
-* NuGet over nuproj (NuGetizer-3000)
+* NuGet over NuProj (NuGetizer-3000)
+  * http://nuproj.net/ (old stuff)
   * https://github.com/NuGet/Home/wiki/NuGetizer-3000
-  * http://nuproj.net/
   * https://ci.appveyor.com/project/MobileEssentials/nuget-build-packaging/build/artifacts
   * nugetizer3000 NuGet feed: https://ci.appveyor.com/nuget/nugetizer3000
 
-* NuGet over exe ile
+* NuGet over NuGet.Exe file
 
 * Project's for testing the behavior of 
-  * libraries </br>
+  * Libraries </br>
   and
-  * nuget packages 
-
+  * NuGet packages 
 
 But there a current following problems inside
 * VSmac 7.1 583
