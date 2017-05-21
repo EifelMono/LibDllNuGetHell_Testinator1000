@@ -28,7 +28,7 @@ Project file's for testing
   and
   * NuGet packages 
 
-But there a current following problems inside
+But there are current following problems inside
 * VSmac 7.1 583
   * Windows created nuspec can not be loaded on a mac
     * https://bugzilla.xamarin.com/show_bug.cgi?id=56701
