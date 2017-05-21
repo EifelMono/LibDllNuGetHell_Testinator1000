@@ -30,31 +30,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_Shared", "Lib_Shared", 
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lib_Shared", "Lib_Shared\Lib_Shared.shproj", "{3F90638E-5074-46A0-A038-9593D1AD4CE3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_0", "Lib_Standard_1_0\Lib_Standard_1_0.csproj", "{F5664BBD-F321-4CEA-A334-4D803C494B00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_0", "Lib_Standard_1_0\Lib_Standard_1_0.csproj", "{F5664BBD-F321-4CEA-A334-4D803C494B00}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_1", "Lib_Standard_1_1\Lib_Standard_1_1.csproj", "{31548125-F85F-4617-A98B-47E5B85D8187}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_1", "Lib_Standard_1_1\Lib_Standard_1_1.csproj", "{31548125-F85F-4617-A98B-47E5B85D8187}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_Standard", "Lib_Standard", "{60513245-AB8A-4989-9F28-9E62B303C6DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_2", "Lib_Standard_1_2\Lib_Standard_1_2.csproj", "{95AA0F2A-0EB5-4D6A-B4D3-28252E1D0A6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_2", "Lib_Standard_1_2\Lib_Standard_1_2.csproj", "{95AA0F2A-0EB5-4D6A-B4D3-28252E1D0A6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_3", "Lib_Standard_1_3\Lib_Standard_1_3.csproj", "{76FF1A65-03FD-4747-A55E-043917337381}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_3", "Lib_Standard_1_3\Lib_Standard_1_3.csproj", "{76FF1A65-03FD-4747-A55E-043917337381}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_4", "Lib_Standard_1_4\Lib_Standard_1_4.csproj", "{C2E88C73-0F8C-4B38-BA86-496B58856125}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_4", "Lib_Standard_1_4\Lib_Standard_1_4.csproj", "{C2E88C73-0F8C-4B38-BA86-496B58856125}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_5", "Lib_Standard_1_5\Lib_Standard_1_5.csproj", "{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_5", "Lib_Standard_1_5\Lib_Standard_1_5.csproj", "{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet_Nuproj", "NuGet_Nuproj", "{4F8AFBD6-5E26-46EB-B791-66C30B7EB8FA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGetNuproj", "NuGetNuproj", "{4F8AFBD6-5E26-46EB-B791-66C30B7EB8FA}"
 EndProject
 Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "NuGetMacCreated", "NuGetMacCreated\NuGetMacCreated.nuproj", "{B6984356-0F84-4F7E-B9B5-D3EF7B9BE54D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet_Cli", "NuGet_Cli", "{AA8E3B6C-0509-46B0-9C25-CFCE44AB8EC9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGetCli", "NuGetCli", "{AA8E3B6C-0509-46B0-9C25-CFCE44AB8EC9}"
 	ProjectSection(SolutionItems) = preProject
-		NuGet_Cli\Empty.nuspec = NuGet_Cli\Empty.nuspec
-		NuGet_Cli\NuGetMac.nuspec = NuGet_Cli\NuGetMac.nuspec
-		NuGet_Cli\NuGetMac.sh = NuGet_Cli\NuGetMac.sh
-		NuGet_Cli\NuGetWin.cmd = NuGet_Cli\NuGetWin.cmd
-		NuGet_Cli\NuGetWin.nuspec = NuGet_Cli\NuGetWin.nuspec
+		NuGetCli\Empty.nuspec = NuGetCli\Empty.nuspec
+		NuGetCli\NuGet.exe = NuGetCli\NuGet.exe
+		NuGetCli\NugetFilesForNuspec.txt = NuGetCli\NugetFilesForNuspec.txt
+		NuGetCli\NuGetMac.nuspec = NuGetCli\NuGetMac.nuspec
+		NuGetCli\NuGetMac.sh = NuGetCli\NuGetMac.sh
+		NuGetCli\NuGetWin.cmd = NuGetCli\NuGetWin.cmd
+		NuGetCli\NuGetWin.nuspec = NuGetCli\NuGetWin.nuspec
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_Os", "Lib_Os", "{E13D53FD-33B1-40A6-91F8-AAC884FAB692}"
@@ -69,7 +71,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_WatchOS", "Lib_WatchOS\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_tvOS", "Lib_tvOS\Lib_tvOS.csproj", "{ED8EC56B-CFA5-41B3-A9E2-E81907A47F52}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_6", "Lib_Standard_1_6\Lib_Standard_1_6.csproj", "{F7D2D816-1442-49CD-92ED-A91107076201}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_6", "Lib_Standard_1_6\Lib_Standard_1_6.csproj", "{F7D2D816-1442-49CD-92ED-A91107076201}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
