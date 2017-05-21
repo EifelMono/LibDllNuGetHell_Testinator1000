@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26510.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_Framework", "Lib_Framework", "{8E1D2D67-9DEB-45E3-92DE-EF3E5C9BA74E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Framework_4_0", "Lib_Framework_4_0\Lib_Framework_4_0.csproj", "{2A20D155-EBCA-497B-94A4-7FD9A4F71059}"
@@ -29,19 +30,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_Shared", "Lib_Shared", 
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lib_Shared", "Lib_Shared\Lib_Shared.shproj", "{3F90638E-5074-46A0-A038-9593D1AD4CE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_0", "Lib_Standard_1_0\Lib_Standard_1_0.csproj", "{F5664BBD-F321-4CEA-A334-4D803C494B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_0", "Lib_Standard_1_0\Lib_Standard_1_0.csproj", "{F5664BBD-F321-4CEA-A334-4D803C494B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_1", "Lib_Standard_1_1\Lib_Standard_1_1.csproj", "{31548125-F85F-4617-A98B-47E5B85D8187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_1", "Lib_Standard_1_1\Lib_Standard_1_1.csproj", "{31548125-F85F-4617-A98B-47E5B85D8187}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib_Standard", "Lib_Standard", "{60513245-AB8A-4989-9F28-9E62B303C6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_2", "Lib_Standard_1_2\Lib_Standard_1_2.csproj", "{95AA0F2A-0EB5-4D6A-B4D3-28252E1D0A6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_2", "Lib_Standard_1_2\Lib_Standard_1_2.csproj", "{95AA0F2A-0EB5-4D6A-B4D3-28252E1D0A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_3", "Lib_Standard_1_3\Lib_Standard_1_3.csproj", "{76FF1A65-03FD-4747-A55E-043917337381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_3", "Lib_Standard_1_3\Lib_Standard_1_3.csproj", "{76FF1A65-03FD-4747-A55E-043917337381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_4", "Lib_Standard_1_4\Lib_Standard_1_4.csproj", "{C2E88C73-0F8C-4B38-BA86-496B58856125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_4", "Lib_Standard_1_4\Lib_Standard_1_4.csproj", "{C2E88C73-0F8C-4B38-BA86-496B58856125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_5", "Lib_Standard_1_5\Lib_Standard_1_5.csproj", "{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_5", "Lib_Standard_1_5\Lib_Standard_1_5.csproj", "{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet_Nuproj", "NuGet_Nuproj", "{4F8AFBD6-5E26-46EB-B791-66C30B7EB8FA}"
 EndProject
@@ -68,9 +69,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_WatchOS", "Lib_WatchOS\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_tvOS", "Lib_tvOS\Lib_tvOS.csproj", "{ED8EC56B-CFA5-41B3-A9E2-E81907A47F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Standard_1_6", "Lib_Standard_1_6\Lib_Standard_1_6.csproj", "{F7D2D816-1442-49CD-92ED-A91107076201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Standard_1_6", "Lib_Standard_1_6\Lib_Standard_1_6.csproj", "{F7D2D816-1442-49CD-92ED-A91107076201}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Lib_Shared\Lib_Shared.projitems*{1f6ed8f6-1d49-4a98-9e66-680336017f82}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{217c96d3-08e5-4f32-bc2d-49678b0a7c57}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{2a20d155-ebca-497b-94a4-7fd9a4f71059}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{2f1345f6-9035-49e1-8bf0-40ae72a4ecd5}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{3f90638e-5074-46a0-a038-9593d1ad4ce3}*SharedItemsImports = 13
+		Lib_Shared\Lib_Shared.projitems*{6a0201c6-d5aa-400d-8a67-4e6f13814a6e}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{6f36ffd8-e0eb-4596-9ecc-2e1a35c16f3f}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{8261265c-8544-4088-8f01-45cef659981d}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{b3734cb7-da10-4a3e-a314-e50d95637baf}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{cea3c4e8-f0a8-44e5-a52e-4f2b65589b4b}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{d6729807-4818-4c76-96db-379fcf2b554d}*SharedItemsImports = 4
+		Lib_Shared\Lib_Shared.projitems*{ed8ec56b-cfa5-41b3-a9e2-e81907a47f52}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
@@ -169,6 +184,9 @@ Global
 		{F7D2D816-1442-49CD-92ED-A91107076201}.Release|x86.ActiveCfg = Release|Any CPU
 		{F7D2D816-1442-49CD-92ED-A91107076201}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2A20D155-EBCA-497B-94A4-7FD9A4F71059} = {8E1D2D67-9DEB-45E3-92DE-EF3E5C9BA74E}
 		{217C96D3-08E5-4F32-BC2D-49678B0A7C57} = {8E1D2D67-9DEB-45E3-92DE-EF3E5C9BA74E}
@@ -178,8 +196,8 @@ Global
 		{2F88246D-E686-4606-A739-40B1266632A7} = {8E1D2D67-9DEB-45E3-92DE-EF3E5C9BA74E}
 		{6A0201C6-D5AA-400D-8A67-4E6F13814A6E} = {8E1D2D67-9DEB-45E3-92DE-EF3E5C9BA74E}
 		{76780CF8-E578-4048-B419-5BD78614DB18} = {8E1D2D67-9DEB-45E3-92DE-EF3E5C9BA74E}
-		{B3734CB7-DA10-4A3E-A314-E50D95637BAF} = {3E94472F-FF31-47FA-A902-782D1A16E139}
 		{1F6ED8F6-1D49-4A98-9E66-680336017F82} = {3E94472F-FF31-47FA-A902-782D1A16E139}
+		{B3734CB7-DA10-4A3E-A314-E50D95637BAF} = {3E94472F-FF31-47FA-A902-782D1A16E139}
 		{3F90638E-5074-46A0-A038-9593D1AD4CE3} = {9348D824-5CA1-4BD4-90D9-83CA6B5814A6}
 		{F5664BBD-F321-4CEA-A334-4D803C494B00} = {60513245-AB8A-4989-9F28-9E62B303C6DD}
 		{31548125-F85F-4617-A98B-47E5B85D8187} = {60513245-AB8A-4989-9F28-9E62B303C6DD}
@@ -188,11 +206,11 @@ Global
 		{C2E88C73-0F8C-4B38-BA86-496B58856125} = {60513245-AB8A-4989-9F28-9E62B303C6DD}
 		{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE} = {60513245-AB8A-4989-9F28-9E62B303C6DD}
 		{B6984356-0F84-4F7E-B9B5-D3EF7B9BE54D} = {4F8AFBD6-5E26-46EB-B791-66C30B7EB8FA}
-		{6F36FFD8-E0EB-4596-9ECC-2E1A35C16F3F} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
 		{2F1345F6-9035-49E1-8BF0-40AE72A4ECD5} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
+		{6F36FFD8-E0EB-4596-9ECC-2E1A35C16F3F} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
 		{4B2C05BF-69F8-4B58-9C25-AB8C563A3A46} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
-		{ED8EC56B-CFA5-41B3-A9E2-E81907A47F52} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
 		{D6729807-4818-4C76-96DB-379FCF2B554D} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
+		{ED8EC56B-CFA5-41B3-A9E2-E81907A47F52} = {E13D53FD-33B1-40A6-91F8-AAC884FAB692}
 		{F7D2D816-1442-49CD-92ED-A91107076201} = {60513245-AB8A-4989-9F28-9E62B303C6DD}
 	EndGlobalSection
 EndGlobal
