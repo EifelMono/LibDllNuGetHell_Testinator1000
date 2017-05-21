@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\Lib_Shared\Lib_Shared.projitems" Label="Shared" Condition="Exists('..\Lib_Shared\Lib_Shared.projitems')" />
   <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -37,6 +38,96 @@
       <Version>0.1.248</Version>
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib_Framework_4_0\Lib_Framework_4_0.csproj">
+      <Project>{2A20D155-EBCA-497B-94A4-7FD9A4F71059}</Project>
+      <Name>Lib_Framework_4_0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Android\Lib_Android.csproj">
+      <Project>{6F36FFD8-E0EB-4596-9ECC-2E1A35C16F3F}</Project>
+      <Name>Lib_Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_5\Lib_Framework_4_5.csproj">
+      <Project>{217C96D3-08E5-4F32-BC2D-49678B0A7C57}</Project>
+      <Name>Lib_Framework_4_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_5_1\Lib_Framework_4_5_1.csproj">
+      <Project>{CEA3C4E8-F0A8-44E5-A52E-4F2B65589B4B}</Project>
+      <Name>Lib_Framework_4_5_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_5_2\Lib_Framework_4_5_2.csproj">
+      <Project>{8261265C-8544-4088-8F01-45CEF659981D}</Project>
+      <Name>Lib_Framework_4_5_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_6\Lib_Framework_4_6.csproj">
+      <Project>{23E97C22-8941-4ED2-A2C6-B7ABCB8A5309}</Project>
+      <Name>Lib_Framework_4_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_6_1\Lib_Framework_4_6_1.csproj">
+      <Project>{2F88246D-E686-4606-A739-40B1266632A7}</Project>
+      <Name>Lib_Framework_4_6_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_7\Lib_Framework_4_7.csproj">
+      <Project>{76780CF8-E578-4048-B419-5BD78614DB18}</Project>
+      <Name>Lib_Framework_4_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Framework_4_6_2\Lib_Framework_4_6_2.csproj">
+      <Project>{6A0201C6-D5AA-400D-8A67-4E6F13814A6E}</Project>
+      <Name>Lib_Framework_4_6_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_iOS\Lib_iOS.csproj">
+      <Project>{2F1345F6-9035-49E1-8BF0-40AE72A4ECD5}</Project>
+      <Name>Lib_iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_macOS\Lib_macOS.csproj">
+      <Project>{4B2C05BF-69F8-4B58-9C25-AB8C563A3A46}</Project>
+      <Name>Lib_macOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Portable_111\Lib_Portable_111.csproj">
+      <Project>{B3734CB7-DA10-4A3E-A314-E50D95637BAF}</Project>
+      <Name>Lib_Portable_111</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Portable_78\Lib_Portable_78.csproj">
+      <Project>{1F6ED8F6-1D49-4A98-9E66-680336017F82}</Project>
+      <Name>Lib_Portable_78</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_0\Lib_Standard_1_0.csproj">
+      <Project>{F5664BBD-F321-4CEA-A334-4D803C494B00}</Project>
+      <Name>Lib_Standard_1_0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_1\Lib_Standard_1_1.csproj">
+      <Project>{31548125-F85F-4617-A98B-47E5B85D8187}</Project>
+      <Name>Lib_Standard_1_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_2\Lib_Standard_1_2.csproj">
+      <Project>{95AA0F2A-0EB5-4D6A-B4D3-28252E1D0A6E}</Project>
+      <Name>Lib_Standard_1_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_3\Lib_Standard_1_3.csproj">
+      <Project>{76FF1A65-03FD-4747-A55E-043917337381}</Project>
+      <Name>Lib_Standard_1_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_4\Lib_Standard_1_4.csproj">
+      <Project>{C2E88C73-0F8C-4B38-BA86-496B58856125}</Project>
+      <Name>Lib_Standard_1_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_5\Lib_Standard_1_5.csproj">
+      <Project>{49FB35A2-33C7-46CD-86A9-4FC70CC7C7FE}</Project>
+      <Name>Lib_Standard_1_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_Standard_1_6\Lib_Standard_1_6.csproj">
+      <Project>{F7D2D816-1442-49CD-92ED-A91107076201}</Project>
+      <Name>Lib_Standard_1_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_tvOS\Lib_tvOS.csproj">
+      <Project>{ED8EC56B-CFA5-41B3-A9E2-E81907A47F52}</Project>
+      <Name>Lib_tvOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib_WatchOS\Lib_WatchOS.csproj">
+      <Project>{D6729807-4818-4C76-96DB-379FCF2B554D}</Project>
+      <Name>Lib_WatchOS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
