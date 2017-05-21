@@ -1,4 +1,4 @@
-# LibDllNuGetHell_Test(T)inator1000
+# LibDllNuGetHell Test(T)inator1000
 
 * Testinator 1000
   * Lib
@@ -19,7 +19,7 @@ Project file's for testing
   * https://github.com/NuGet/Home/wiki/NuGetizer-3000
   * http://nuproj.net/
   * https://ci.appveyor.com/project/MobileEssentials/nuget-build-packaging/build/artifacts
-  * nugetizer3000: https://ci.appveyor.com/nuget/nugetizer3000
+  * nugetizer3000 NuGet feed: https://ci.appveyor.com/nuget/nugetizer3000
 
 * NuGet over exe ile
 
