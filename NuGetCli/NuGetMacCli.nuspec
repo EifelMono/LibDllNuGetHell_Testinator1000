@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>NuGetMacCli</id>
+        <version>1.0.0</version>
+        <title>NuGetMacCli</title>
+        <authors>Andreas.Klapperich</authors>
+        <owners>Andreas.Klapperich</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>LibDllNuGetHell_Testinator1000</description>
+        <summary>LibDllNuGetHell_Testinator1000</summary>
+        <releaseNotes />
+        <copyright>Copyright © Andreas.Klapperich</copyright>
+        <language />
+        <tags>LibDllNuGetHell_Testinator1000</tags>
+     </metadata>
+    <files>
+        <file src="../Lib_Framework_4_0/bin/Release/Lib_Framework_4_0.dll" target="lib/net40/Lib_Framework_4_0.dll" />
+        <file src="../Lib_Framework_4_5/bin/Release/Lib_Framework_4_5.dll" target="lib/net45/Lib_Framework_4_5.dll" />
+        <file src="../Lib_Framework_4_5_1/bin/Release/Lib_Framework_4_5_1.dll" target="lib/net451/Lib_Framework_4_5_1.dll" />
+        <file src="../Lib_Framework_4_5_2/bin/Release/Lib_Framework_4_5_2.dll" target="lib/net452/Lib_Framework_4_5_2.dll" />
+        <file src="../Lib_Framework_4_6/bin/Release/Lib_Framework_4_6.dll" target="lib/net46/Lib_Framework_4_6.dll" />
+        <file src="../Lib_Framework_4_6_1/bin/Release/Lib_Framework_4_6_1.dll" target="lib/net461/Lib_Framework_4_6_1.dll" />
+        <file src="../Lib_Framework_4_6_2/bin/Release/Lib_Framework_4_6_2.dll" target="lib/net462/Lib_Framework_4_6_2.dll" />
+        <file src="../Lib_Portable_78/bin/Release/Lib_Portable_78.dll" target="lib/portable45-net45+win8+wp8/Lib_Portable_78.dll" />
+        <file src="../Lib_Portable_111/bin/Release/Lib_Portable_111.dll" target="lib/portable45-net45+win8+wpa81/Lib_Portable_111.dll" />
+        <file src="../Lib_iOS/bin/Release/Lib_iOS.dll" target="lib/xamarinios10/Lib_iOS.dll" />
+        <file src="../Lib_Standard_1_0/bin/Release/netstandard1.0/Lib_Standard_1_0.dll" target="lib/netstandard1.0/Lib_Standard_1_0.dll" />
+        <file src="../Lib_Standard_1_1/bin/Release/netstandard1.1/Lib_Standard_1_1.dll" target="lib/netstandard1.1/Lib_Standard_1_1.dll" />
+        <file src="../Lib_Standard_1_2/bin/Release/netstandard1.2/Lib_Standard_1_2.dll" target="lib/netstandard1.2/Lib_Standard_1_2.dll" />
+        <file src="../Lib_Standard_1_3/bin/Release/netstandard1.3/Lib_Standard_1_3.dll" target="lib/netstandard1.3/Lib_Standard_1_3.dll" />
+        <file src="../Lib_Standard_1_4/bin/Release/netstandard1.4/Lib_Standard_1_4.dll" target="lib/netstandard1.4/Lib_Standard_1_4.dll" />
+        <file src="../Lib_Standard_1_5/bin/Release/netstandard1.5/Lib_Standard_1_5.dll" target="lib/netstandard1.5/Lib_Standard_1_5.dll" />
+        <file src="../Lib_Standard_1_6/bin/Release/netstandard1.6/Lib_Standard_1_6.dll" target="lib/netstandard1.6/Lib_Standard_1_6.dll" />
+    </files>
+</package>
